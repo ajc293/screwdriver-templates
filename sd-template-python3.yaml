@@ -1,0 +1,8 @@
+name: screwdriver/python3
+version: 0.0.1
+description: Runs main.py for given python pkg.
+maintainer: me@work.com
+config:
+    image: docker-ac-bionic
+    steps:
+        - run: python3 './main.py'
