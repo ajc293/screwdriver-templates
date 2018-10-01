@@ -1,4 +1,4 @@
-name: screwdriver/python3-run
+name: screwdriver/discord-rewrite-run
 version: 0.0.1
 description: Runs main.py
 maintainer: me@work.com
