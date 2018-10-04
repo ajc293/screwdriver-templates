@@ -1,0 +1,8 @@
+name: screwdriver/anaconda3-run
+version: 0.0.1
+description: Runs main.py
+maintainer: me@work.com
+config:
+    image: continuumio/anaconda3
+    steps:
+        - build: python3 './main.py'
