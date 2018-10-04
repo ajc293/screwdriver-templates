@@ -3,6 +3,6 @@ version: 0.0.1
 description: Runs main.py
 maintainer: me@work.com
 config:
-    image: gorialis/discord.py:rewrite
+    image: python
     steps:
         - build: python './main.py'
